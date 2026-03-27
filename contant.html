@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Portfolio - Gayatri</title>
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<style>
+body { scroll-behavior: smooth; }
+
+/* Navbar */
+.navbar { background: #000; }
+.nav-link, .navbar-brand { color: #fff !important; }
+
+/* Carousel */
+.carousel img { height: 500px; object-fit: cover; }
+
+
+
+.contact-section {
+    padding: 40px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.form-box {
+    background: rgba(255,255,255,0.4);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn-custom {
+    background-color: #6c9;
+    border: none;
+}
+/* Contact */
+.contact-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+footer {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#">Gayatri</a>
+<button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+<li class="nav-item"><a href="#academic" class="nav-link">Academic</a></li>
+<li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!-- CAROUSEL -->
+<section id="home" class="mt-5 pt-4">
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="https://picsum.photos/1200/500?1" class="d-block w-100">
+</div>
+<div class="carousel-item">
+<img src="https://picsum.photos/1200/500?2" class="d-block w-100">
+</div>
+<div class="carousel-item">
+<img src="https://picsum.photos/1200/500?3" class="d-block w-100">
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+<div class="container contact-section">
+    <h2 class="text-center mb-4">Contact Me</h2>
+
+    <div class="row">
+
+        <!-- Map -->
+        <div class="col-md-6 map-container">
+            <iframe 
+                src="https://www.google.com/maps?q=Jewargi%20Colony%20Kalaburagi&output=embed">
+            </iframe>
+        </div>
+
+        <!-- Contact Details + Form -->
+        <div class="col-md-6">
+
+            <p><strong>Address:</strong> Kalaburagi</p>
+            <p><strong>Email:</strong> gayatri@gmail.com</p>
+            <p><strong>Phone:</strong> 9576102768</p>
+
+            <div class="form-box mt-3">
+                <form>
+                    <div class="mb-3">
+                        <label>Name</label>
+                        <input type="text" class="form-control" placeholder="Enter name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Email</label>
+                        <input type="email" class="form-control" placeholder="Enter email">
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Phone</label>
+                        <input type="text" class="form-control" placeholder="Enter phone">
+                    </div>
+
+                    <button type="submit" class="btn btn-custom">Submit</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!-- FOOTER -->
+<footer>
+<p>© 2026 Gayatri Mahoorkar</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
